@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  project:
+    image: ghcr.io/owner/project
+    container_name: project
+    restart: unless-stopped
